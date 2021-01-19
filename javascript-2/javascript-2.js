@@ -97,7 +97,7 @@ let saleProducts = products.map(function(arr){
 */
 
 
-let blueProducts = products.filter((products) => products.color.includes('blue'))
+let blueProducts = saleProducts.filter((products) => products.color.includes('blue'))
       
 
 
@@ -167,7 +167,7 @@ const {email} = ellensInfo
   from shippingInfo to new variables using destructuring.
 */
 
-const {zipCode, state} = ellensInfo
+let {zipCode, state} = shippingInfo
 
 //////////////////////////////////PROBLEMS 9-11//////////////////////////////////
 /*
